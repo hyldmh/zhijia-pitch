@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>智家 AI 銷售員 — 融資計劃書</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css" id="theme">
+<style>
+  :root {
+    --c-primary: #1e40af;
+    --c-accent: #f59e0b;
+    --c-dark: #1f2937;
+    --c-light: #f3f4f6;
+  }
+  body { font-family: "Microsoft YaHei", "PingFang TC", sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color: var(--c-primary); font-weight: 700; }
+  .reveal h1 { font-size: 2.6em; }
+  .reveal h2 { font-size: 1.9em; }
+  .reveal h3 { font-size: 1.4em; }
+  .reveal .accent { color: var(--c-accent); }
+  .reveal .dim { color: #6b7280; font-size: 0.7em; }
+  .reveal .big-number { font-size: 2.8em; color: var(--c-accent); font-weight: 800; }
+  .reveal .stat-box {
+    display: inline-block;
+    background: var(--c-light);
+    padding: 18px 28px;
+    border-radius: 12px;
+    margin: 10px;
+    min-width: 200px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  .reveal .stat-box .num { font-size: 2em; color: var(--c-primary); font-weight: 800; }
+  .reveal .stat-box .label { font-size: 0.6em; color: #6b7280; }
+  .reveal table { margin: auto; border-collapse: collapse; font-size: 0.7em; }
+  .reveal table th, .reveal table td {
+    padding: 10px 18px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+  }
+  .reveal table th {
+    background: var(--c-primary);
+    color: white;
+    font-weight: 600;
+  }
+  .reveal .pill {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 16px;
+    background: var(--c-accent);
+    color: white;
+    font-size: 0.7em;
+    margin: 0 6px;
+  }
+  .reveal .pill.blue { background: var(--c-primary); }
+  .reveal .architecture {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    font-family: monospace;
+    font-size: 0.45em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .reveal .cta {
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+    color: white !important;
+    padding: 28px;
+    border-radius: 16px;
+  }
+  .reveal .footer-note {
+    position: absolute;
+    bottom: 12px;
+    left: 24px;
+    font-size: 0.4em;
+    color: #9ca3af;
+  }
+  .reveal .progress { color: var(--c-accent); }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- Slide 1: Cover -->
+<section data-background-gradient="linear-gradient(135deg, #1e40af 0%, #3b82f6 100%)" style="color:white;">
+  <h1 style="color:white;font-size:2.8em;">智家 AI 銷售員</h1>
+  <h3 style="color:white;">雲端全雙工 AI × AR 沉浸式家具電商</h3>
+  <p style="margin-top:40px;font-size:0.9em;">A New Generation of Furniture Retail</p>
+  <p class="dim" style="margin-top:60px;color:#cbd5e1;">融資計劃書 · Seed Round · 2026 Q4</p>
+  <p class="footer-note" style="color:#cbd5e1;">按 ESC 進入全螢幕 · 方向鍵翻頁</p>
+</section>
+
+<!-- Slide 2: Pain -->
+<section>
+  <h2>🏠 家具購物的 4 大痛點</h2>
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; margin-top:40px;">
+    <div class="stat-box"><div style="font-size:1.8em;">🚫</div><div class="num">62%</div><div class="label">退貨率<br>（買回去不適合）</div></div>
+    <div class="stat-box"><div style="font-size:1.8em;">⏱️</div><div class="num">7 天</div><div class="label">平均決策週期<br>（反覆去賣場）</div></div>
+    <div class="stat-box"><div style="font-size:1.8em;">😩</div><div class="num">85%</div><div class="label">用戶反饋<br>「沒人解答」</div></div>
+    <div class="stat-box"><div style="font-size:1.8em;">💸</div><div class="num">¥3,000</div><div class="label">平均退貨損失/單</div></div>
+  </div>
+  <p class="dim" style="margin-top:60px;">傳統電商：圖片 + 評論，<br>無法回答「沙發配不配我家地板？」</p>
+</section>
+
+<!-- Slide 3: Opportunity -->
+<section>
+  <h2>✨ AI × AR 帶來的革命</h2>
+  <h3>從「圖文電商」升級到「對話式沉浸電商」</h3>
+  <div style="margin-top:60px; text-align:left; max-width:80%; margin-left:auto; margin-right:auto;">
+    <p>📞 <b>語音視頻即時對話</b> — 像真人一樣隨時問、隨時打斷</p>
+    <p>📷 <b>看著用戶的家</b> — 顧客用手機掃房間，AI 即時推薦搭配</p>
+    <p>🛋️ <b>AR 試擺</b> — 沙發、茶几擺進顧客家裡的真實效果</p>
+    <p>🎨 <b>風格遷移</b> — 拍一張照片，AI 生成同風格搭配方案</p>
+  </div>
+  <p class="accent dim" style="margin-top:50px;">技術成熟度：✅ GPT-4o Realtime、Qwen2.5-VL、ARKit RoomPlan — 全部到位</p>
+</section>
+
+<!-- Slide 4: Solution -->
+<section>
+  <h2>🤖 智家 AI 銷售員</h2>
+  <h3>你的 7×24 私人家具顧問</h3>
+  <div style="margin-top:50px;">
+    <div class="stat-box" style="background:#dbeafe;">
+      <div class="num">170ms</div><div class="label">全雙工延遲<br>（真人級反應）</div>
+    </div>
+    <div class="stat-box" style="background:#fef3c7;">
+      <div class="num">88%</div><div class="label">視覺識別準確率<br>（家具/風格）</div>
+    </div>
+    <div class="stat-box" style="background:#d1fae5;">
+      <div class="num">3D + AR</div><div class="label">真實擺放<br>不是幻想</div>
+    </div>
+  </div>
+  <p class="dim" style="margin-top:50px;">當顧客問：「這沙發配不配我家木地板？」<br>
+  AI 即時看照片 → 風格判斷 → 推薦 + AR 預覽 + 直接下單</p>
+</section>
+
+<!-- Slide 5: Architecture -->
+<section>
+  <h2>⚙️ 核心技術架構</h2>
+  <div class="architecture">
+    <pre style="margin:0;">
+   📱 用戶端（手機 H5/App）
+   ├── WebRTC  (聲網/騰訊雲) ──── 音視頻實時傳輸
+   ├── WebSocket                 ──── 控制信令
+   └── WebXR (ARKit/ARCore)      ──── AR 試擺
+   
+              ↓ HTTPS/WSS
+            
+   ☁️ 雲端 AI Orchestrator (FastAPI)
+   ├── ASR (阿里雲/火山)        ──→ 中文即時識別
+   ├── VLM (Qwen2.5-VL-7B)     ──→ 房間照片分析
+   ├── LLM (GPT-4o Realtime)    ──→ 全雙工對話
+   ├── TTS (edge-tts / CosyVoice) ──→ 串流語音合成
+   └── Function Calling
+       ├── 🔍 商品 RAG (Qdrant 向量庫)
+       ├── 💰 庫存/價格 (PostgreSQL)
+       ├── 📦 訂單/物流 API
+       └── 🏭 3D 模型庫 (S3 + CDN)
+
+   🛒 後台 SaaS (Medusa.js + EspoCRM)
+    </pre>
+  </div>
+  <p class="dim" style="margin-top:30px;">所有模塊都是 <span class="pill">開源</span> 或 <span class="pill blue">現成 API</span></p>
+</section>
+
+<!-- Slide 6: Use Cases -->
+<section>
+  <h2>🎬 3 個關鍵使用場景</h2>
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; margin-top:30px; font-size:0.7em;">
+    <div class="stat-box" style="max-width:380px;">
+      <div style="font-size:1.4em;">📞 場景 1</div>
+      <h3>下班路上隨口問</h3>
+      <p>顧客：「沙發還有現貨嗎？」<br>AI：「有的，深灰色款還有 3 件。我看你家是北歐風，推薦這款 H8112，要我放進你家看看嗎？」<br>→ <b>AR 試擺</b></p>
+    </div>
+    <div class="stat-box" style="max-width:380px;">
+      <div style="font-size:1.4em;">📷 場景 2</div>
+      <h3>客廳實拍搭配</h3>
+      <p>顧客上傳客廳照片<br>AI：「我看到你已有米色沙發和木地板，建議加這個綠色單椅 + 金屬落地燈，整體活潑 30%。要不要看效果？」<br>→ <b>AI 搭配 + 即時生成</b></p>
+    </div>
+    <div class="stat-box" style="max-width:380px;">
+      <div style="font-size:1.4em;">🛋️ 場景 3</div>
+      <h3>真實尺寸 AR 試擺</h3>
+      <p>顧客掃描房間 → 沙發 1:1 進到家裡<br>AI：「門寬 80cm，這沙發 220cm 進不去。推薦這款 180cm 的同款。」<br>→ <b>退貨率↓</b></p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 7: Market -->
+<section>
+  <h2>📊 市場規模</h2>
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; margin-top:30px;">
+    <div class="stat-box" style="background:linear-gradient(135deg,#fef3c7,#fde68a);">
+      <div class="num">¥5.4 萬億</div><div class="label">TAM 全球家具市場<br>（2026）</div>
+    </div>
+    <div class="stat-box" style="background:linear-gradient(135deg,#dbeafe,#bfdbfe);">
+      <div class="num">¥1.1 萬億</div><div class="label">SAM 線上家具電商<br>（中國 2026）</div>
+    </div>
+    <div class="stat-box" style="background:linear-gradient(135deg,#d1fae5,#a7f3d0);">
+      <div class="num">¥50 億</div><div class="label">SOM 3 年目標<br>（AI 家具電商細分）</div>
+    </div>
+  </div>
+  <p class="dim" style="margin-top:60px;">數據來源：Statista 2026、艾瑞諮詢、Frost & Sullivan</p>
+</section>
+
+<!-- Slide 8: Business Model -->
+<section>
+  <h2>💰 商業模式</h2>
+  <table>
+    <thead>
+      <tr><th>收入來源</th><th>模式</th><th>單價 / 抽成</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>GMV 交易抽成</td><td>每筆訂單抽 5-8%</td><td>客單 ¥3000 → ¥150-240</td></tr>
+      <tr><td>SaaS 訂閱（商家版）</td><td>家具品牌入駐費</td><td>¥2,000-50,000/月</td></tr>
+      <tr><td>API 增值服務</td><td>3D 模型 / AI 搭配 API</td><td>按調用計費</td></tr>
+      <tr><td>廣告 / 推廣</td><td>商品曝光 + 導購分成</td><td>CPC + CPS</td></tr>
+    </tbody>
+  </table>
+  <h3 class="accent" style="margin-top:40px;">目標：第 3 年 GMV ¥15 億、毛利率 25%</h3>
+</section>
+
+<!-- Slide 9: Cost & Roadmap -->
+<section>
+  <h2>🛠️ 投入成本 & 路線圖</h2>
+  <table style="font-size:0.55em;">
+    <thead>
+      <tr><th>Sprint</th><th>時程</th><th>內容</th><th>團隊</th><th>成本</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>S1 MVP 電商</td><td>4 週</td><td>商品 + 訂單 + AI 文字導購</td><td>2-3 全端</td><td>¥5 萬</td></tr>
+      <tr><td>S2 語音導購</td><td>4 週</td><td>+ WebRTC + ASR + 串流 TTS</td><td>+1 音視頻</td><td>+¥5 萬</td></tr>
+      <tr><td>S3 視覺理解</td><td>4 週</td><td>+ 房間照片 + Qwen-VL + AI 搭配</td><td>+1 AI</td><td>+¥5 萬</td></tr>
+      <tr><td>S4 AR 試擺</td><td>6 週</td><td>+ 3D viewer + ARKit + 50 件建模</td><td>+1 3D</td><td>+¥15 萬</td></tr>
+      <tr><td>S5 數字人銷售員</td><td>8 週</td><td>+ full-duplex 視訊 + 數字人</td><td>+2 工程師</td><td>+¥20 萬</td></tr>
+      <tr style="background:#fef3c7;font-weight:bold;">
+        <td>合計</td><td>6-9 月</td><td>完整 MVP + 上線</td><td>5-7 人</td><td>¥50-100 萬</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="dim" style="margin-top:30px;">月營運成本（1 萬月活）：¥3-9 萬 / 月（雲端 + API + 儲存）</p>
+</section>
+
+<!-- Slide 10: Financing -->
+<section>
+  <h2>🎯 融資計劃</h2>
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; margin-top:30px;">
+    <div class="stat-box" style="background:linear-gradient(135deg,#1e40af,#3b82f6); color:white;">
+      <div class="num" style="color:white;">¥800 萬</div>
+      <div class="label" style="color:#dbeafe;">本輪融資目標<br>Seed Round</div>
+    </div>
+    <div class="stat-box" style="background:var(--c-accent); color:white;">
+      <div class="num" style="color:white;">8%</div>
+      <div class="label" style="color:#fef3c7;">稀釋股份</div>
+    </div>
+    <div class="stat-box" style="background:#10b981; color:white;">
+      <div class="num" style="color:white;">18 個月</div>
+      <div class="label" style="color:#d1fae5;">資金跑道</div>
+    </div>
+  </div>
+  <h3 style="margin-top:40px;">資金用途</h3>
+  <table style="font-size:0.65em;">
+    <thead><tr><th>項目</th><th>佔比</th><th>金額</th></tr></thead>
+    <tbody>
+      <tr><td>產品研發（5 sprints）</td><td>50%</td><td>¥400 萬</td></tr>
+      <tr><td>雲端 / API 營運</td><td>20%</td><td>¥160 萬</td></tr>
+      <tr><td>市場推廣 / 銷售</td><td>20%</td><td>¥160 萬</td></tr>
+      <tr><td>團隊擴充（設計/運營）</td><td>10%</td><td>¥80 萬</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Slide 11: Milestones -->
+<section>
+  <h2>🚀 18 個月里程碑</h2>
+  <div style="text-align:left; max-width:80%; margin:30px auto; font-size:0.85em;">
+    <p><span class="pill blue">M0 (M1-M3)</span> MVP 上線，內測 1,000 用戶，技術驗證</p>
+    <p><span class="pill blue">M1 (M4-M6)</span> 公測上線，10 家家具品牌入駐，GMV ¥100 萬</p>
+    <p><span class="pill blue">M2 (M7-M9)</span> AR 試擺上線，月活 5 萬，GMV ¥1,000 萬</p>
+    <p><span class="pill blue">M3 (M10-M12)</span> 數字人銷售員上線，月活 20 萬</p>
+    <p><span class="pill">M4 (M13-M18)</span> Series A 啟動，月活 50 萬，GMV ¥5 億/年</p>
+  </div>
+  <p class="accent" style="margin-top:30px;">關鍵指標：退貨率 < 15%（行業平均 30%）· 客單 +25% · 轉化率 +40%</p>
+</section>
+
+<!-- Slide 12: Closing -->
+<section data-background-gradient="linear-gradient(135deg, #1e40af 0%, #3b82f6 100%)" style="color:white;">
+  <h1 style="color:white;">加入我們</h1>
+  <h3 style="color:white;">讓 AI + AR 重塑萬億家具市場</h3>
+  <div style="margin-top:60px; font-size:0.9em; color:#dbeafe;">
+    <p>📧 contact@zhijia-ai.example</p>
+    <p>🌐 www.zhijia-ai.example</p>
+    <p>📍 台北市信義區 / 深圳市南山區</p>
+  </div>
+  <p style="margin-top:80px; font-size:0.7em; color:#fef3c8;">Q & A</p>
+  <p class="footer-note" style="color:#cbd5e1;">智家 AI · Seed Round · 2026 Q4</p>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    progress: true,
+    transition: 'slide',
+    pdf: true,
+    pdfSeparateFragments: false
+  });
+</script>
+</body>
+</html>

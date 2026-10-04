@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>智家 AI — 雙客戶獲客渠道路線</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+<style>
+  :root {
+    --c-c: #3b82f6;       /* C 端藍 */
+    --c-b: #f59e0b;       /* B 端橘 */
+    --c-pri: #1e40af;
+    --c-dark: #1f2937;
+    --c-light: #f3f4f6;
+  }
+  body { font-family: "Microsoft YaHei", "PingFang TC", sans-serif; }
+  .reveal h1, .reveal h2, .reveal h3 { color: var(--c-pri); font-weight: 700; }
+  .reveal h1 { font-size: 2.4em; }
+  .reveal h2 { font-size: 1.8em; }
+  .reveal h3 { font-size: 1.3em; }
+  .reveal .accent { color: var(--c-b); }
+  .reveal .c-color { color: var(--c-c); }
+  .reveal .b-color { color: var(--c-b); }
+  .reveal .dim { color: #6b7280; font-size: 0.7em; }
+  .reveal .stat-box {
+    display: inline-block;
+    background: var(--c-light);
+    padding: 16px 22px;
+    border-radius: 12px;
+    margin: 8px;
+    min-width: 180px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    vertical-align: top;
+  }
+  .reveal .stat-box.c-side { background: linear-gradient(135deg,#dbeafe,#bfdbfe); border-left: 5px solid var(--c-c); }
+  .reveal .stat-box.b-side { background: linear-gradient(135deg,#fef3c7,#fde68a); border-left: 5px solid var(--c-b); }
+  .reveal .stat-box .num { font-size: 1.6em; color: var(--c-pri); font-weight: 800; }
+  .reveal .stat-box .label { font-size: 0.55em; color: #6b7280; }
+  .reveal table { margin: auto; border-collapse: collapse; font-size: 0.55em; }
+  .reveal table th, .reveal table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+  }
+  .reveal table th { background: var(--c-pri); color: white; font-weight: 600; }
+  .reveal .pill { display: inline-block; padding: 4px 12px; border-radius: 16px; background: var(--c-b); color: white; font-size: 0.65em; margin: 0 4px; }
+  .reveal .pill.c { background: var(--c-c); }
+  .reveal .pill.b { background: var(--c-b); }
+  .reveal .pill.gray { background: #6b7280; }
+  .reveal .persona { display: inline-block; background: white; border: 2px solid var(--c-c); border-radius: 12px; padding: 12px 18px; margin: 6px; max-width: 240px; text-align: left; vertical-align: top; }
+  .reveal .persona.b-side { border-color: var(--c-b); }
+  .reveal .persona .name { color: var(--c-pri); font-weight: 800; font-size: 1.1em; }
+  .reveal .persona.b-side .name { color: var(--c-b); }
+  .reveal .persona .attrs { font-size: 0.7em; color: #6b7280; }
+  .reveal .path-card { display: inline-block; background: white; border-radius: 10px; padding: 12px 16px; margin: 6px; max-width: 280px; vertical-align: top; box-shadow: 0 2px 6px rgba(0,0,0,0.08); text-align: left; }
+  .reveal .path-card.c-side { border-top: 4px solid var(--c-c); }
+  .reveal .path-card.b-side { border-top: 4px solid var(--c-b); }
+  .reveal .path-card .title { font-weight: 700; color: var(--c-pri); font-size: 1em; }
+  .reveal .path-card.b-side .title { color: var(--c-b); }
+  .reveal .path-card .detail { font-size: 0.65em; color: #6b7280; margin-top: 4px; }
+  .reveal .path-card .cost { font-size: 0.7em; color: #10b981; font-weight: 600; margin-top: 4px; }
+  .reveal .footer-note {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 0.35em;
+    color: #9ca3af;
+  }
+  .reveal .progress { color: var(--c-b); }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- Slide 1: Cover -->
+<section data-background-gradient="linear-gradient(135deg, #3b82f6 0%, #1e40af 50%, #f59e0b 100%)" style="color:white;">
+  <h1 style="color:white;font-size:2.4em;">雙客戶獲客路線圖</h1>
+  <h3 style="color:white;">C 端買家 + B 端商家 — 飛輪啟動</h3>
+  <p style="margin-top:40px;font-size:0.9em;">智家 AI 銷售員 · 6 個月執行計劃</p>
+  <p class="dim" style="margin-top:60px;color:#dbeafe;">2026 Q4 — 2027 Q1</p>
+  <p class="footer-note" style="color:#cbd5e1;">按 ESC 進入全螢幕 · 方向鍵翻頁</p>
+</section>
+
+<!-- Slide 2: Two Customers -->
+<section>
+  <h2>兩類客戶，兩條戰線</h2>
+  <div style="margin-top:50px;">
+    <div style="display:inline-block; width:45%; vertical-align:top; padding:20px; background:linear-gradient(135deg,#dbeafe,#bfdbfe); border-radius:16px;">
+      <div style="font-size:2.5em;">🧑</div>
+      <h3 class="c-color" style="margin-top:10px;">C 端買家</h3>
+      <p class="dim">「買來自己用的消費者」</p>
+      <p style="font-size:0.7em; margin-top:20px;">
+        客單 ¥3,000-30,000<br>
+        月活目標：<b>20 萬</b><br>
+        CAC 目標：<b>&lt; ¥25</b>
+      </p>
+    </div>
+    <div style="display:inline-block; width:10%;"></div>
+    <div style="display:inline-block; width:45%; vertical-align:top; padding:20px; background:linear-gradient(135deg,#fef3c7,#fde68a); border-radius:16px;">
+      <div style="font-size:2.5em;">🏪</div>
+      <h3 class="b-color" style="margin-top:10px;">B 端商家</h3>
+      <p class="dim">「進駐平台賣貨的品牌/賣家」</p>
+      <p style="font-size:0.7em; margin-top:20px;">
+        月費 ¥2,000-50,000<br>
+        商家數：<b>500 家</b><br>
+        CAC 目標：<b>&lt; ¥5,000</b>
+      </p>
+    </div>
+  </div>
+  <p class="accent" style="margin-top:40px;">兩條戰線不是獨立，是<strong>飛輪</strong>：C 端流量帶 B 端商家、B 端商家帶 C 端流量</p>
+</section>
+
+<!-- Slide 3: C-side personas -->
+<section>
+  <h2 class="c-color">🧑 C 端 3 個核心 Persona</h2>
+  <div style="margin-top:40px;">
+    <div class="persona">
+      <div class="name">小張 · 30 歲</div>
+      <div class="attrs">互聯網從業者 · 上海</div>
+      <p style="font-size:0.6em; margin-top:8px;">新房入住、怕踩坑、刷小紅書做功課<br><b>觸達：小紅書、朋友推薦</b></p>
+    </div>
+    <div class="persona">
+      <div class="name">林姐 · 38 歲</div>
+      <div class="attrs">全職媽媽 · 杭州</div>
+      <p style="font-size:0.6em; margin-top:8px;">舊房翻新、預算有限、信任 KOC<br><b>觸達：母嬰 KOC、微信社群</b></p>
+    </div>
+    <div class="persona">
+      <div class="name">陳總 · 45 歲</div>
+      <div class="attrs">企業主 · 廣州</div>
+      <p style="font-size:0.6em; margin-top:8px;">買別墅、要全套、品質優先<br><b>觸達：展會、設計師推薦</b></p>
+    </div>
+  </div>
+  <p class="dim" style="margin-top:50px;">C 端主力：25-40 歲、一二線城市、買房/裝修場景</p>
+</section>
+
+<!-- Slide 4: B-side personas -->
+<section>
+  <h2 class="b-color">🏪 B 端 3 個核心 Persona</h2>
+  <div style="margin-top:40px;">
+    <div class="persona b-side">
+      <div class="name">淘寶王哥</div>
+      <div class="attrs">小賣家 · 佛山 · 月 GMV 30 萬</div>
+      <p style="font-size:0.6em; margin-top:8px;">客服每天 200+ 重複問題<br><b>需求：AI 客服插件</b></p>
+    </div>
+    <div class="persona b-side">
+      <div class="name">品牌李姐</div>
+      <div class="attrs">垂類品牌 · 蘇州 · 年 GMV 1 億</div>
+      <p style="font-size:0.6em; margin-top:8px;">想打入年輕市場、缺內容<br><b>需求：AI 搭配內容工具</b></p>
+    </div>
+    <div class="persona b-side">
+      <div class="name">連鎖趙總</div>
+      <div class="attrs">10 店 + 天貓 · 北京</div>
+      <p style="font-size:0.6em; margin-top:8px;">線上轉化 1.2%、退貨 35%<br><b>需求：AR 試擺 + 數據看板</b></p>
+    </div>
+  </div>
+  <p class="dim" style="margin-top:50px;">B 端主力：產業帶小賣家 + 垂類品牌 + 連鎖龍頭</p>
+</section>
+
+<!-- Slide 5: Strategy Overview -->
+<section>
+  <h2>整體戰略</h2>
+  <h3>兩端並行 + 飛輪 + 自增長</h3>
+  <div style="margin-top:50px;">
+    <div class="stat-box c-side"><div class="num">12 條</div><div class="label">C 端獲客路徑<br>分 3 個 Tier</div></div>
+    <div class="stat-box b-side"><div class="num">8 條</div><div class="label">B 端獲客路徑<br>分 4 個方向</div></div>
+    <div class="stat-box"><div class="num">¥400 萬</div><div class="label">6 個月預算</div></div>
+    <div class="stat-box" style="background:linear-gradient(135deg,#10b981,#059669); color:white;"><div class="num" style="color:white;">M4</div><div class="label" style="color:#d1fae5;">飛輪啟動時間</div></div>
+  </div>
+</section>
+
+<!-- Slide 6: C-side Tier 1 (overview) -->
+<section>
+  <h2 class="c-color">🧑 C 端 Tier 1：立即執行</h2>
+  <h3>成本低、ROI 高、見效快</h3>
+  <div style="margin-top:40px;">
+    <div class="path-card c-side">
+      <div class="title">① 短影片內容行銷</div>
+      <div class="detail">抖音 + 小紅書 + B站 + 視頻號<br>5 種爆款模板：AI 改造、QA、對比…</div>
+      <div class="cost">KOC ¥3 萬/月 · 80 萬 UV</div>
+    </div>
+    <div class="path-card c-side">
+      <div class="title">② 小紅書 KOC 矩陣</div>
+      <div class="detail">50 位腰部 KOC + 5 位頭部 KOL<br>高轉化家居內容</div>
+      <div class="cost">¥200-500/位 · 月 50 篇</div>
+    </div>
+    <div class="path-card c-side">
+      <div class="title">③ 微信生態私域</div>
+      <div class="detail">小程序 + 公眾號 + 100 個群<br>企業微信 + 視頻號同步</div>
+      <div class="cost">CAC < ¥1/人</div>
+    </div>
+    <div class="path-card c-side">
+      <div class="title">④ SEO + 內容矩陣</div>
+      <div class="detail">130 篇深度文章<br>裝修/家具/AI/風格 4 大類</div>
+      <div class="cost">3-6 月起效 · 月 30 萬 UV</div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 7: C-side Tier 2 -->
+<section>
+  <h2 class="c-color">🧑 C 端 Tier 2：成長期（S2 後）</h2>
+  <div style="margin-top:40px;">
+    <div class="path-card c-side">
+      <div class="title">⑤ 朋友圈廣告 LBS</div>
+      <div class="detail">25-45 歲、一二線、買房興趣<br>AI 試擺短影片素材</div>
+      <div class="cost">留資成本 ¥30-80</div>
+    </div>
+    <div class="path-card c-side">
+      <div class="title">⑥ 百度 / 必應 SEM</div>
+      <div class="detail">「AI 家具搭配」「AR 試擺」<br>「裝修風格」高 CPC 關鍵字</div>
+      <div class="cost">月 ¥5 萬預算</div>
+    </div>
+    <div class="path-card c-side">
+      <div class="title">⑦ KOL 深度合作</div>
+      <div class="detail">頭部家居博主 + 設計師 KOL<br>品牌代言 / 直播帶貨</div>
+      <div class="cost">¥1-200 萬/合作</div>
+    </div>
+    <div class="path-card c-side">
+      <div class="title">⑧ 展會 / 線下 pop-up</div>
+      <div class="detail">家博會 + 紅星美凱龍店內體驗<br>iPad + AR 試擺設備</div>
+      <div class="cost">¥10-15 萬/場</div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 8: C-side Tier 3 -->
+<section>
+  <h2 class="c-color">🧑 C 端 Tier 3：規模化（A 輪後）</h2>
+  <div style="margin-top:40px;">
+    <div class="path-card c-side">
+      <div class="title">⑨ 電視 / 視頻植入</div>
+      <div class="detail">家居改造真人秀<br>明星直播帶貨</div>
+      <div class="cost">¥500 萬+ · ARR > ¥5,000 萬</div>
+    </div>
+    <div class="path-card c-side">
+      <div class="title">⑩ 跨境電商</div>
+      <div class="detail">Wayfair/Overstock（歐美）<br>Shopee/Lazada（東南亞）</div>
+      <div class="cost">¥30 萬起步</div>
+    </div>
+    <div class="path-card c-side">
+      <div class="title">⑪ 房地產 / 物業</div>
+      <div class="detail">精裝房軟裝搭配增值服務<br>萬科 / 碧桂園物業社區團購</div>
+      <div class="cost">決策週期 6-12 月</div>
+    </div>
+    <div class="path-card c-side">
+      <div class="title">⑫ AI 插件生態</div>
+      <div class="detail">ChatGPT GPTs / 豆包插件<br>Coze / Dify 開發者社群</div>
+      <div class="cost">零成本 · 主動獲客</div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 9: B-side Overview -->
+<section>
+  <h2 class="b-color">🏪 B 端 8 條獲客路徑</h2>
+  <div style="margin-top:30px;">
+    <div class="path-card b-side">
+      <div class="title">① 行業展會（核心）</div>
+      <div class="detail">中國家博會 / 深圳家具展<br>米蘭設計週 / 北京家居展</div>
+      <div class="cost">¥5-30 萬/場 · 月 1-3 家簽約</div>
+    </div>
+    <div class="path-card b-side">
+      <div class="title">② 直銷 BD 團隊</div>
+      <div class="detail">華南/華東/華北/西南<br>覆蓋產業帶工廠</div>
+      <div class="cost">6 人 · 年薪 25 萬 + 提成</div>
+    </div>
+    <div class="path-card b-side">
+      <div class="title">③ 行業媒體</div>
+      <div class="detail">家居視頻 / 家具雜誌<br>今日家居 / 傢俱與生活</div>
+      <div class="cost">¥5,000-30,000/篇</div>
+    </div>
+    <div class="path-card b-side">
+      <div class="title">④ 行業協會</div>
+      <div class="detail">中國家具協會 · 家居品牌聯盟<br>智能家居聯盟</div>
+      <div class="cost">會員費 · 官方背書</div>
+    </div>
+    <div class="path-card b-side">
+      <div class="title">⑤ 電商平台插件</div>
+      <div class="detail">Shopify / 有贊 / 淘寶服務市場<br>抖音小店服務商</div>
+      <div class="cost">訂閱抽佣 · 1-2 月簽約</div>
+    </div>
+    <div class="path-card b-side">
+      <div class="title">⑥ 設計師分成</div>
+      <div class="detail">設計本 / 馬蹄網 / 裝修師傅群<br>成交後設計師拿 10%</div>
+      <div class="cost">純抽成 · 1-2 月啟動</div>
+    </div>
+    <div class="path-card b-side">
+      <div class="title">⑦ 自助入駐</div>
+      <div class="detail">商家中心網站 + 招商手冊<br>首批 100 家 6 月免費</div>
+      <div class="cost">極低 · 即時簽約</div>
+    </div>
+    <div class="path-card b-side">
+      <div class="title">⑧ 海外商家</div>
+      <div class="detail">東南亞代工廠品牌出海<br>歐美 D2C 家具品牌</div>
+      <div class="cost">¥30 萬 · 客單 5-10× 國內</div>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 10: Flywheel -->
+<section data-background-gradient="linear-gradient(135deg, #dbeafe 0%, #fef3c7 100%)">
+  <h2>🔄 雙端飛輪效應</h2>
+  <div style="margin-top:50px; font-size:0.85em; text-align:left; max-width:80%; margin-left:auto; margin-right:auto;">
+    <p style="text-align:center; font-size:1.1em;">C 端流量 ↑ → B 端商家付費意願 ↑</p>
+    <p style="text-align:center; margin:10px 0;">↕</p>
+    <p style="text-align:center; font-size:1.1em;">B 端商家付費 ↑ → C 端商品選擇 ↑ → 流量 ↑</p>
+  </div>
+  <div class="stat-box c-side" style="margin-top:50px;"><div class="num">0.5%</div><div class="label">C → B 轉化率<br>（每 200 C 帶 1 商家）</div></div>
+  <div class="stat-box b-side"><div class="num">1,000</div><div class="label">每商家月帶 C 端 UV</div></div>
+  <div class="stat-box"><div class="num">&lt; 6 月</div><div class="label">CAC payback</div></div>
+</section>
+
+<!-- Slide 11: Roadmap -->
+<section>
+  <h2>📅 6 個月執行路線圖</h2>
+  <table style="font-size:0.5em;">
+    <thead>
+      <tr><th>月</th><th>C 端動作</th><th>B 端動作</th><th>目標 UV</th><th>目標商家</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><b>M1</b></td><td>小程序上線、短影片、KOC 10 位</td><td>商家中心 v1、自助入駐、5 家種子</td><td>5,000</td><td>5</td></tr>
+      <tr><td><b>M2</b></td><td>KOC 50 位、朋友圈測試、SEO 30 篇</td><td>產業帶拜訪 20 家、小型分享會</td><td>30 萬</td><td>20</td></tr>
+      <tr style="background:#dbeafe;"><td><b>M3</b></td><td><b>家博會展位（廣州）、dou+ 投放</b></td><td><b>現場簽約 30 家、設計師分成上線</b></td><td>50 萬</td><td>50</td></tr>
+      <tr style="background:#fef3c7;"><td><b>M4</b></td><td><b>AR 上線、AI 試擺挑戰賽</b></td><td><b>自助入駐開始自然增長</b></td><td>100 萬</td><td>150</td></tr>
+      <tr><td><b>M5</b></td><td>朋友圈放量、百度 SEM、上海展會</td><td>BD 團隊 6 人、行業協會、海外首批</td><td>200 萬</td><td>300</td></tr>
+      <tr style="background:#d1fae5;"><td><b>M6</b></td><td><b>付費會員上線、月 GMV 突破</b></td><td><b>付費率 > 60% · 客單 ¥15,000</b></td><td>500 萬</td><td>500</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- Slide 12: Budget -->
+<section>
+  <h2>💰 6 個月預算 ¥400 萬</h2>
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; margin-top:50px;">
+    <div class="stat-box c-side"><div class="num">¥180 萬</div><div class="label">C 端獲客 · 45%</div></div>
+    <div class="stat-box b-side"><div class="num">¥120 萬</div><div class="label">B 端獲客 · 30%</div></div>
+    <div class="stat-box"><div class="num">¥40 萬</div><div class="label">內容 + 工具 · 10%</div></div>
+    <div class="stat-box"><div class="num">¥40 萬</div><div class="label">BD 薪資 · 10%</div></div>
+    <div class="stat-box"><div class="num">¥20 萬</div><div class="label">預備金 · 5%</div></div>
+  </div>
+  <p class="dim" style="margin-top:30px;">M4 後開始正現金流，融資可撐 18 月</p>
+</section>
+
+<!-- Slide 13: KPIs -->
+<section>
+  <h2>📈 6 個月 KPI 目標</h2>
+  <table style="font-size:0.55em;">
+    <thead>
+      <tr><th>月份</th><th>C 端 UV</th><th>C 端註冊</th><th>B 端商家</th><th>月 GMV</th><th>CAC（C）</th><th>CAC（B）</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>M1</td><td>5,000</td><td>500</td><td>5</td><td>¥5 萬</td><td>¥10</td><td>¥20,000</td></tr>
+      <tr><td>M2</td><td>30 萬</td><td>5,000</td><td>20</td><td>¥50 萬</td><td>¥8</td><td>¥15,000</td></tr>
+      <tr><td>M3</td><td>50 萬</td><td>1 萬</td><td>50</td><td>¥200 萬</td><td>¥12</td><td>¥10,000</td></tr>
+      <tr style="background:#dbeafe;"><td><b>M4</b></td><td><b>100 萬</b></td><td><b>3 萬</b></td><td><b>150</b></td><td><b>¥500 萬</b></td><td>¥15</td><td>¥8,000</td></tr>
+      <tr><td>M5</td><td>200 萬</td><td>8 萬</td><td>300</td><td>¥1,000 萬</td><td>¥20</td><td>¥6,000</td></tr>
+      <tr style="background:#d1fae5;"><td><b>M6</b></td><td><b>500 萬</b></td><td><b>20 萬</b></td><td><b>500</b></td><td><b>¥3,000 萬</b></td><td>¥25</td><td>¥5,000</td></tr>
+    </tbody>
+  </table>
+  <p class="accent" style="margin-top:30px;">健康指標：LTV/CAC ≥ 3 · 退貨率 &lt; 15%（行業 30%）</p>
+</section>
+
+<!-- Slide 14: Action List -->
+<section>
+  <h2>🚀 本週 10 件事</h2>
+  <div style="margin-top:30px;">
+    <div style="text-align:left; max-width:90%; margin:auto; font-size:0.85em;">
+      <p><span class="pill c">C 端</span> ① 註冊抖音 + 小紅書 + 視頻號帳號（30 分鐘）</p>
+      <p><span class="pill c">C 端</span> ② 拍 1 支「AI 試擺沙發」示範影片（2 小時）</p>
+      <p><span class="pill c">C 端</span> ③ 找 10 位家居 KOC 私訊合作（1 小時）</p>
+      <p><span class="pill c">C 端</span> ④ 寫第 1 篇 SEO 文章「AI 家具搭配是什麼」（2 小時）</p>
+      <p><span class="pill c">C 端</span> ⑤ 建 5 個微信家居群（250 種子用戶）（1 小時）</p>
+      <p><span class="pill b">B 端</span> ⑥ 註冊商家中心網域 + 域名郵箱（30 分鐘）</p>
+      <p><span class="pill b">B 端</span> ⑦ 整理商家入駐流程 + 招商手冊（4 小時）</p>
+      <p><span class="pill b">B 端</span> ⑧ 列佛山/蘇州 50 家家具工廠清單（2 小時）</p>
+      <p><span class="pill b">B 端</span> ⑨ 預約 3 月家博會展位（廣州）（1 小時）</p>
+      <p><span class="pill b">B 端</span> ⑩ 設計「商家自助入駐」UI 草圖（2 小時）</p>
+    </div>
+  </div>
+  <p class="dim" style="margin-top:30px;">總耗時 ~17 小時 / 1 週 / 2 人</p>
+</section>
+
+<!-- Slide 15: Closing -->
+<section data-background-gradient="linear-gradient(135deg, #3b82f6 0%, #1e40af 50%, #f59e0b 100%)" style="color:white;">
+  <h1 style="color:white;">兩端齊發 · 飛輪啟動</h1>
+  <h3 style="color:white;">從 M1 MVP 到 M6 變現驗證</h3>
+  <div style="margin-top:60px; font-size:0.85em; color:#dbeafe;">
+    <p>📧 contact@zhijia-ai.example</p>
+    <p>🌐 www.zhijia-ai.example</p>
+    <p>📍 台北市信義區 / 深圳市南山區</p>
+  </div>
+  <p style="margin-top:80px; font-size:0.7em; color:#fef3c8;">Q & A</p>
+  <p class="footer-note" style="color:#cbd5e1;">智家 AI · 雙客戶獲客路線圖 · 2026 Q4</p>
+</section>
+
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    slideNumber: 'c/t',
+    progress: true,
+    transition: 'slide',
+    pdf: true,
+    pdfSeparateFragments: false
+  });
+</script>
+</body>
+</html>
